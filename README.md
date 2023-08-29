@@ -17,5 +17,10 @@ conda activate geant4-playground
 Use following commands to run the simulation.
 
 ```
-./run.sh
+cd B4/B4a
+mkdri build
+cd build
+cmake ..
+make
+./exampleB4a -m run2.mac
 ```

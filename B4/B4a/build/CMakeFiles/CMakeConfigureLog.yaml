@@ -1,0 +1,858 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Linux - 6.1.0-11-amd64 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-cc 
+      Build flags: -march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/home/dinupa/mambaforge/envs/geant4-playground/include
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/3.26.4/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-c++ 
+      Build flags: -fvisibility-inlines-hidden;-fmessage-length=0;-march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/home/dinupa/mambaforge/envs/geant4-playground/include
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/3.26.4/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-9d8WXi"
+      binary: "/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-9d8WXi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/dinupa/mambaforge/envs/geant4-playground/lib -Wl,-rpath-link,/home/dinupa/mambaforge/envs/geant4-playground/lib -L/home/dinupa/mambaforge/envs/geant4-playground/lib"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-9d8WXi
+        
+        Run Build Command(s):/home/dinupa/mambaforge/envs/geant4-playground/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bd10a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bd10a.dir/build.make CMakeFiles/cmTC_bd10a.dir/build
+        gmake[1]: Entering directory '/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-9d8WXi'
+        Building C object CMakeFiles/cmTC_bd10a.dir/CMakeCCompilerABI.c.o
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include    -v -o CMakeFiles/cmTC_bd10a.dir/CMakeCCompilerABI.c.o -c /home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        Reading specs from /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-cc
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/12.3.0 --with-pkgversion='conda-forge gcc 12.3.0-0' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.3.0 (conda-forge gcc 12.3.0-0) 
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dinupa/mambaforge/envs/geant4-playground/include' '-v' '-o' 'CMakeFiles/cmTC_bd10a.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_bd10a.dir/'
+         /home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/cc1 -quiet -v -iprefix /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/ -isysroot /home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot -isystem /home/dinupa/mambaforge/envs/geant4-playground/include /home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_bd10a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=nocona -mtune=haswell -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
+         /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_bd10a.dir/CMakeCCompilerABI.c.o
+        GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40
+        GNU C17 (conda-forge gcc 12.3.0-0) version 12.3.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include"
+        ignoring nonexistent directory "/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+        ignoring duplicate directory "/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed"
+        ignoring duplicate directory "/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/dinupa/mambaforge/envs/geant4-playground/include
+         /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include
+         /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed
+         /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include
+         /home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+        End of search list.
+        GNU C17 (conda-forge gcc 12.3.0-0) version 12.3.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: fe9e54314e701292a7ffc0a1fa931e0d
+        COMPILER_PATH=/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dinupa/mambaforge/envs/geant4-playground/include' '-v' '-o' 'CMakeFiles/cmTC_bd10a.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_bd10a.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_bd10a
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd10a.dir/link.txt --verbose=1
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/dinupa/mambaforge/envs/geant4-playground/lib -Wl,-rpath-link,/home/dinupa/mambaforge/envs/geant4-playground/lib -L/home/dinupa/mambaforge/envs/geant4-playground/lib -v CMakeFiles/cmTC_bd10a.dir/CMakeCCompilerABI.c.o -o cmTC_bd10a 
+        Reading specs from /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-cc
+        COLLECT_LTO_WRAPPER=/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/12.3.0 --with-pkgversion='conda-forge gcc 12.3.0-0' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.3.0 (conda-forge gcc 12.3.0-0) 
+        COMPILER_PATH=/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dinupa/mambaforge/envs/geant4-playground/include' '-L/home/dinupa/mambaforge/envs/geant4-playground/lib' '-v' '-o' 'cmTC_bd10a' '-dumpdir' 'cmTC_bd10a.'
+         /home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2 -plugin /home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOAm7Ib.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_bd10a /home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/dinupa/mambaforge/envs/geant4-playground/lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0 -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../.. -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/dinupa/mambaforge/envs/geant4-playground/lib -rpath-link /home/dinupa/mambaforge/envs/geant4-playground/lib CMakeFiles/cmTC_bd10a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o /home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/dinupa/mambaforge/envs/geant4-playground/lib
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dinupa/mambaforge/envs/geant4-playground/include' '-L/home/dinupa/mambaforge/envs/geant4-playground/lib' '-v' '-o' 'cmTC_bd10a' '-dumpdir' 'cmTC_bd10a.'
+        gmake[1]: Leaving directory '/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-9d8WXi'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/dinupa/mambaforge/envs/geant4-playground/include]
+          add: [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include]
+          add: [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed]
+          add: [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include]
+          add: [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/dinupa/mambaforge/envs/geant4-playground/include] ==> [/home/dinupa/mambaforge/envs/geant4-playground/include]
+        collapse include dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include] ==> [/home/dinupa/mambaforge/envs/geant4-playground/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include]
+        collapse include dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed] ==> [/home/dinupa/mambaforge/envs/geant4-playground/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed]
+        collapse include dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include] ==> [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/include]
+        collapse include dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [/home/dinupa/mambaforge/envs/geant4-playground/include;/home/dinupa/mambaforge/envs/geant4-playground/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include;/home/dinupa/mambaforge/envs/geant4-playground/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed;/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/include;/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(x86_64-conda-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-9d8WXi]
+        ignore line: []
+        ignore line: [Run Build Command(s):/home/dinupa/mambaforge/envs/geant4-playground/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bd10a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bd10a.dir/build.make CMakeFiles/cmTC_bd10a.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-9d8WXi']
+        ignore line: [Building C object CMakeFiles/cmTC_bd10a.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include    -v -o CMakeFiles/cmTC_bd10a.dir/CMakeCCompilerABI.c.o -c /home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [Reading specs from /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-cc]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/12.3.0 --with-pkgversion='conda-forge gcc 12.3.0-0' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.3.0 (conda-forge gcc 12.3.0-0) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dinupa/mambaforge/envs/geant4-playground/include' '-v' '-o' 'CMakeFiles/cmTC_bd10a.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_bd10a.dir/']
+        ignore line: [ /home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/cc1 -quiet -v -iprefix /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/ -isysroot /home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot -isystem /home/dinupa/mambaforge/envs/geant4-playground/include /home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_bd10a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=nocona -mtune=haswell -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
+        ignore line: [ /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_bd10a.dir/CMakeCCompilerABI.c.o]
+        ignore line: [GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40]
+        ignore line: [GNU C17 (conda-forge gcc 12.3.0-0) version 12.3.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/dinupa/mambaforge/envs/geant4-playground/include]
+        ignore line: [ /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include]
+        ignore line: [ /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed]
+        ignore line: [ /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include]
+        ignore line: [ /home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (conda-forge gcc 12.3.0-0) version 12.3.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: fe9e54314e701292a7ffc0a1fa931e0d]
+        ignore line: [COMPILER_PATH=/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dinupa/mambaforge/envs/geant4-playground/include' '-v' '-o' 'CMakeFiles/cmTC_bd10a.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_bd10a.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_bd10a]
+        ignore line: [/home/dinupa/mambaforge/envs/geant4-playground/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd10a.dir/link.txt --verbose=1]
+        ignore line: [/home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include  -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --disable-new-dtags -Wl --gc-sections -Wl --allow-shlib-undefined -Wl -rpath /home/dinupa/mambaforge/envs/geant4-playground/lib -Wl -rpath-link /home/dinupa/mambaforge/envs/geant4-playground/lib -L/home/dinupa/mambaforge/envs/geant4-playground/lib -v CMakeFiles/cmTC_bd10a.dir/CMakeCCompilerABI.c.o -o cmTC_bd10a ]
+        ignore line: [Reading specs from /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/12.3.0 --with-pkgversion='conda-forge gcc 12.3.0-0' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.3.0 (conda-forge gcc 12.3.0-0) ]
+        ignore line: [COMPILER_PATH=/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dinupa/mambaforge/envs/geant4-playground/include' '-L/home/dinupa/mambaforge/envs/geant4-playground/lib' '-v' '-o' 'cmTC_bd10a' '-dumpdir' 'cmTC_bd10a.']
+        link line: [ /home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2 -plugin /home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOAm7Ib.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_bd10a /home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/dinupa/mambaforge/envs/geant4-playground/lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0 -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../.. -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/dinupa/mambaforge/envs/geant4-playground/lib -rpath-link /home/dinupa/mambaforge/envs/geant4-playground/lib CMakeFiles/cmTC_bd10a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o /home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/dinupa/mambaforge/envs/geant4-playground/lib]
+          arg [/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccOAm7Ib.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--sysroot=/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_bd10a] ==> ignore
+          arg [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+          arg [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+          arg [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o] ==> obj [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o]
+          arg [-L/home/dinupa/mambaforge/envs/geant4-playground/lib] ==> dir [/home/dinupa/mambaforge/envs/geant4-playground/lib]
+          arg [-L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0] ==> dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0]
+          arg [-L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc] ==> dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc]
+          arg [-L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+          arg [-L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib] ==> dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib]
+          arg [-L/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+          arg [-L/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+          arg [-L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib]
+          arg [-L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../..] ==> dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../..]
+          arg [-L/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+          arg [-L/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+          arg [-O2] ==> ignore
+          arg [--sort-common] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-znow] ==> ignore
+          arg [--disable-new-dtags] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [--allow-shlib-undefined] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/home/dinupa/mambaforge/envs/geant4-playground/lib] ==> ignore
+          arg [-rpath-link] ==> ignore
+          arg [/home/dinupa/mambaforge/envs/geant4-playground/lib] ==> ignore
+          arg [CMakeFiles/cmTC_bd10a.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o] ==> obj [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o]
+          arg [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+          arg [-rpath] ==> ignore
+          arg [/home/dinupa/mambaforge/envs/geant4-playground/lib] ==> ignore
+        collapse obj [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+        collapse obj [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+        collapse obj [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o] ==> [/home/dinupa/mambaforge/envs/geant4-playground/lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o]
+        collapse obj [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o] ==> [/home/dinupa/mambaforge/envs/geant4-playground/lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o]
+        collapse obj [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        collapse library dir [/home/dinupa/mambaforge/envs/geant4-playground/lib] ==> [/home/dinupa/mambaforge/envs/geant4-playground/lib]
+        collapse library dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0] ==> [/home/dinupa/mambaforge/envs/geant4-playground/lib/gcc/x86_64-conda-linux-gnu/12.3.0]
+        collapse library dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc] ==> [/home/dinupa/mambaforge/envs/geant4-playground/lib/gcc]
+        collapse library dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib] ==> [/home/dinupa/mambaforge/envs/geant4-playground/lib]
+        collapse library dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        collapse library dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../..] ==> [/home/dinupa/mambaforge/envs/geant4-playground/lib]
+        collapse library dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/dinupa/mambaforge/envs/geant4-playground/lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o;/home/dinupa/mambaforge/envs/geant4-playground/lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o;/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        implicit dirs: [/home/dinupa/mambaforge/envs/geant4-playground/lib;/home/dinupa/mambaforge/envs/geant4-playground/lib/gcc/x86_64-conda-linux-gnu/12.3.0;/home/dinupa/mambaforge/envs/geant4-playground/lib/gcc;/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/lib;/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/lib;/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-ORaDYo"
+      binary: "/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-ORaDYo"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/dinupa/mambaforge/envs/geant4-playground/lib -Wl,-rpath-link,/home/dinupa/mambaforge/envs/geant4-playground/lib -L/home/dinupa/mambaforge/envs/geant4-playground/lib"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-ORaDYo
+        
+        Run Build Command(s):/home/dinupa/mambaforge/envs/geant4-playground/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_63b87/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_63b87.dir/build.make CMakeFiles/cmTC_63b87.dir/build
+        gmake[1]: Entering directory '/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-ORaDYo'
+        Building CXX object CMakeFiles/cmTC_63b87.dir/CMakeCXXCompilerABI.cpp.o
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include    -v -o CMakeFiles/cmTC_63b87.dir/CMakeCXXCompilerABI.cpp.o -c /home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Reading specs from /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-c++
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/12.3.0 --with-pkgversion='conda-forge gcc 12.3.0-0' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.3.0 (conda-forge gcc 12.3.0-0) 
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dinupa/mambaforge/envs/geant4-playground/include' '-v' '-o' 'CMakeFiles/cmTC_63b87.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_63b87.dir/'
+         /home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/cc1plus -quiet -v -iprefix /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/ -isysroot /home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/dinupa/mambaforge/envs/geant4-playground/include /home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_63b87.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=nocona -mtune=haswell -O2 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
+         /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_63b87.dir/CMakeCXXCompilerABI.cpp.o
+        GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40
+        GNU C++17 (conda-forge gcc 12.3.0-0) version 12.3.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include"
+        ignoring nonexistent directory "/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+        ignoring duplicate directory "/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed"
+        ignoring duplicate directory "/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/dinupa/mambaforge/envs/geant4-playground/include
+         /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include
+         /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed
+         /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include
+         /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/12.3.0
+         /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/12.3.0/x86_64-conda-linux-gnu
+         /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/12.3.0/backward
+         /home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+        End of search list.
+        GNU C++17 (conda-forge gcc 12.3.0-0) version 12.3.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 4e1030485dc8b1babd734aed6750bd94
+        COMPILER_PATH=/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dinupa/mambaforge/envs/geant4-playground/include' '-v' '-o' 'CMakeFiles/cmTC_63b87.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_63b87.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_63b87
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63b87.dir/link.txt --verbose=1
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/dinupa/mambaforge/envs/geant4-playground/lib -Wl,-rpath-link,/home/dinupa/mambaforge/envs/geant4-playground/lib -L/home/dinupa/mambaforge/envs/geant4-playground/lib -v CMakeFiles/cmTC_63b87.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_63b87 
+        Reading specs from /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-c++
+        COLLECT_LTO_WRAPPER=/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/12.3.0 --with-pkgversion='conda-forge gcc 12.3.0-0' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.3.0 (conda-forge gcc 12.3.0-0) 
+        COMPILER_PATH=/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dinupa/mambaforge/envs/geant4-playground/include' '-L/home/dinupa/mambaforge/envs/geant4-playground/lib' '-v' '-o' 'cmTC_63b87' '-shared-libgcc' '-dumpdir' 'cmTC_63b87.'
+         /home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2 -plugin /home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgiLIr6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_63b87 /home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/dinupa/mambaforge/envs/geant4-playground/lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0 -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../.. -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/dinupa/mambaforge/envs/geant4-playground/lib -rpath-link /home/dinupa/mambaforge/envs/geant4-playground/lib CMakeFiles/cmTC_63b87.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o /home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/dinupa/mambaforge/envs/geant4-playground/lib
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dinupa/mambaforge/envs/geant4-playground/include' '-L/home/dinupa/mambaforge/envs/geant4-playground/lib' '-v' '-o' 'cmTC_63b87' '-shared-libgcc' '-dumpdir' 'cmTC_63b87.'
+        gmake[1]: Leaving directory '/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-ORaDYo'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/dinupa/mambaforge/envs/geant4-playground/include]
+          add: [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include]
+          add: [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed]
+          add: [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include]
+          add: [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/12.3.0]
+          add: [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/12.3.0/x86_64-conda-linux-gnu]
+          add: [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/12.3.0/backward]
+          add: [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/dinupa/mambaforge/envs/geant4-playground/include] ==> [/home/dinupa/mambaforge/envs/geant4-playground/include]
+        collapse include dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include] ==> [/home/dinupa/mambaforge/envs/geant4-playground/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include]
+        collapse include dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed] ==> [/home/dinupa/mambaforge/envs/geant4-playground/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed]
+        collapse include dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include] ==> [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/include]
+        collapse include dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/12.3.0] ==> [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/include/c++/12.3.0]
+        collapse include dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/12.3.0/x86_64-conda-linux-gnu] ==> [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/include/c++/12.3.0/x86_64-conda-linux-gnu]
+        collapse include dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/12.3.0/backward] ==> [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/include/c++/12.3.0/backward]
+        collapse include dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [/home/dinupa/mambaforge/envs/geant4-playground/include;/home/dinupa/mambaforge/envs/geant4-playground/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include;/home/dinupa/mambaforge/envs/geant4-playground/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed;/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/include;/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/include/c++/12.3.0;/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/include/c++/12.3.0/x86_64-conda-linux-gnu;/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/include/c++/12.3.0/backward;/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(x86_64-conda-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-ORaDYo]
+        ignore line: []
+        ignore line: [Run Build Command(s):/home/dinupa/mambaforge/envs/geant4-playground/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_63b87/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_63b87.dir/build.make CMakeFiles/cmTC_63b87.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-ORaDYo']
+        ignore line: [Building CXX object CMakeFiles/cmTC_63b87.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include    -v -o CMakeFiles/cmTC_63b87.dir/CMakeCXXCompilerABI.cpp.o -c /home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Reading specs from /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-c++]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/12.3.0 --with-pkgversion='conda-forge gcc 12.3.0-0' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.3.0 (conda-forge gcc 12.3.0-0) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dinupa/mambaforge/envs/geant4-playground/include' '-v' '-o' 'CMakeFiles/cmTC_63b87.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_63b87.dir/']
+        ignore line: [ /home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/cc1plus -quiet -v -iprefix /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/ -isysroot /home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/dinupa/mambaforge/envs/geant4-playground/include /home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_63b87.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=nocona -mtune=haswell -O2 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
+        ignore line: [ /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_63b87.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40]
+        ignore line: [GNU C++17 (conda-forge gcc 12.3.0-0) version 12.3.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/dinupa/mambaforge/envs/geant4-playground/include]
+        ignore line: [ /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include]
+        ignore line: [ /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed]
+        ignore line: [ /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include]
+        ignore line: [ /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/12.3.0]
+        ignore line: [ /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/12.3.0/x86_64-conda-linux-gnu]
+        ignore line: [ /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/12.3.0/backward]
+        ignore line: [ /home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (conda-forge gcc 12.3.0-0) version 12.3.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 4e1030485dc8b1babd734aed6750bd94]
+        ignore line: [COMPILER_PATH=/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dinupa/mambaforge/envs/geant4-playground/include' '-v' '-o' 'CMakeFiles/cmTC_63b87.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_63b87.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_63b87]
+        ignore line: [/home/dinupa/mambaforge/envs/geant4-playground/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63b87.dir/link.txt --verbose=1]
+        ignore line: [/home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include  -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --disable-new-dtags -Wl --gc-sections -Wl --allow-shlib-undefined -Wl -rpath /home/dinupa/mambaforge/envs/geant4-playground/lib -Wl -rpath-link /home/dinupa/mambaforge/envs/geant4-playground/lib -L/home/dinupa/mambaforge/envs/geant4-playground/lib -v CMakeFiles/cmTC_63b87.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_63b87 ]
+        ignore line: [Reading specs from /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1685813973314/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/12.3.0 --with-pkgversion='conda-forge gcc 12.3.0-0' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.3.0 (conda-forge gcc 12.3.0-0) ]
+        ignore line: [COMPILER_PATH=/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/dinupa/mambaforge/envs/geant4-playground/include' '-L/home/dinupa/mambaforge/envs/geant4-playground/lib' '-v' '-o' 'cmTC_63b87' '-shared-libgcc' '-dumpdir' 'cmTC_63b87.']
+        link line: [ /home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2 -plugin /home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgiLIr6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_63b87 /home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/dinupa/mambaforge/envs/geant4-playground/lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0 -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../.. -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/dinupa/mambaforge/envs/geant4-playground/lib -rpath-link /home/dinupa/mambaforge/envs/geant4-playground/lib CMakeFiles/cmTC_63b87.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o /home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/dinupa/mambaforge/envs/geant4-playground/lib]
+          arg [/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/dinupa/mambaforge/envs/geant4-playground/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccgiLIr6.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_63b87] ==> ignore
+          arg [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+          arg [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+          arg [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o] ==> obj [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o]
+          arg [-L/home/dinupa/mambaforge/envs/geant4-playground/lib] ==> dir [/home/dinupa/mambaforge/envs/geant4-playground/lib]
+          arg [-L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0] ==> dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0]
+          arg [-L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc] ==> dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc]
+          arg [-L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+          arg [-L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib] ==> dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib]
+          arg [-L/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+          arg [-L/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+          arg [-L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib]
+          arg [-L/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../..] ==> dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../..]
+          arg [-L/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+          arg [-L/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+          arg [-O2] ==> ignore
+          arg [--sort-common] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-znow] ==> ignore
+          arg [--disable-new-dtags] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [--allow-shlib-undefined] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/home/dinupa/mambaforge/envs/geant4-playground/lib] ==> ignore
+          arg [-rpath-link] ==> ignore
+          arg [/home/dinupa/mambaforge/envs/geant4-playground/lib] ==> ignore
+          arg [CMakeFiles/cmTC_63b87.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o] ==> obj [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o]
+          arg [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+          arg [-rpath] ==> ignore
+          arg [/home/dinupa/mambaforge/envs/geant4-playground/lib] ==> ignore
+        collapse obj [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+        collapse obj [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+        collapse obj [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o] ==> [/home/dinupa/mambaforge/envs/geant4-playground/lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o]
+        collapse obj [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o] ==> [/home/dinupa/mambaforge/envs/geant4-playground/lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o]
+        collapse obj [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        collapse library dir [/home/dinupa/mambaforge/envs/geant4-playground/lib] ==> [/home/dinupa/mambaforge/envs/geant4-playground/lib]
+        collapse library dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0] ==> [/home/dinupa/mambaforge/envs/geant4-playground/lib/gcc/x86_64-conda-linux-gnu/12.3.0]
+        collapse library dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc] ==> [/home/dinupa/mambaforge/envs/geant4-playground/lib/gcc]
+        collapse library dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib] ==> [/home/dinupa/mambaforge/envs/geant4-playground/lib]
+        collapse library dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        collapse library dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../..] ==> [/home/dinupa/mambaforge/envs/geant4-playground/lib]
+        collapse library dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/dinupa/mambaforge/envs/geant4-playground/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/dinupa/mambaforge/envs/geant4-playground/lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o;/home/dinupa/mambaforge/envs/geant4-playground/lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o;/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        implicit dirs: [/home/dinupa/mambaforge/envs/geant4-playground/lib;/home/dinupa/mambaforge/envs/geant4-playground/lib/gcc/x86_64-conda-linux-gnu/12.3.0;/home/dinupa/mambaforge/envs/geant4-playground/lib/gcc;/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/lib;/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/lib;/home/dinupa/mambaforge/envs/geant4-playground/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/lib/Geant4-11.0.3/PTL/PTLConfig.cmake:83 (find_package)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/lib/Geant4-11.0.3/Geant4Config.cmake:285 (find_dependency)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-EBvfXj"
+      binary: "/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-EBvfXj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/dinupa/mambaforge/envs/geant4-playground/lib -Wl,-rpath-link,/home/dinupa/mambaforge/envs/geant4-playground/lib -L/home/dinupa/mambaforge/envs/geant4-playground/lib"
+      CMAKE_MODULE_PATH: "/home/dinupa/mambaforge/envs/geant4-playground/lib/Geant4-11.0.3/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: /home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-EBvfXj
+        
+        Run Build Command(s):/home/dinupa/mambaforge/envs/geant4-playground/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fe538/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fe538.dir/build.make CMakeFiles/cmTC_fe538.dir/build
+        gmake[1]: Entering directory '/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-EBvfXj'
+        Building C object CMakeFiles/cmTC_fe538.dir/src.c.o
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-cc -DCMAKE_HAVE_LIBC_PTHREAD  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include  -o CMakeFiles/cmTC_fe538.dir/src.c.o -c /home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-EBvfXj/src.c
+        Linking C executable cmTC_fe538
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe538.dir/link.txt --verbose=1
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/dinupa/mambaforge/envs/geant4-playground/lib -Wl,-rpath-link,/home/dinupa/mambaforge/envs/geant4-playground/lib -L/home/dinupa/mambaforge/envs/geant4-playground/lib  CMakeFiles/cmTC_fe538.dir/src.c.o -o cmTC_fe538 
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: CMakeFiles/cmTC_fe538.dir/src.c.o: in function `main':
+        src.c:(.text.startup.main+0x24): undefined reference to `pthread_create'
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text.startup.main+0x2e): undefined reference to `pthread_detach'
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text.startup.main+0x38): undefined reference to `pthread_cancel'
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text.startup.main+0x44): undefined reference to `pthread_join'
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text.startup.main+0x50): undefined reference to `pthread_atfork'
+        collect2: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_fe538.dir/build.make:99: cmTC_fe538] Error 1
+        gmake[1]: Leaving directory '/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-EBvfXj'
+        gmake: *** [Makefile:127: cmTC_fe538/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/FindThreads.cmake:136 (try_compile)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/FindThreads.cmake:169 (_threads_check_flag_pthread)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/lib/Geant4-11.0.3/PTL/PTLConfig.cmake:83 (find_package)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/lib/Geant4-11.0.3/Geant4Config.cmake:285 (find_dependency)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Check if compiler accepts -pthread"
+    directories:
+      source: "/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-GImp7n"
+      binary: "/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-GImp7n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/dinupa/mambaforge/envs/geant4-playground/lib -Wl,-rpath-link,/home/dinupa/mambaforge/envs/geant4-playground/lib -L/home/dinupa/mambaforge/envs/geant4-playground/lib"
+      CMAKE_MODULE_PATH: "/home/dinupa/mambaforge/envs/geant4-playground/lib/Geant4-11.0.3/Modules"
+    buildResult:
+      variable: "THREADS_HAVE_PTHREAD_ARG"
+      cached: true
+      stdout: |
+        Change Dir: /home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-GImp7n
+        
+        Run Build Command(s):/home/dinupa/mambaforge/envs/geant4-playground/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f6226/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f6226.dir/build.make CMakeFiles/cmTC_f6226.dir/build
+        gmake[1]: Entering directory '/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-GImp7n'
+        Building C object CMakeFiles/cmTC_f6226.dir/CheckForPthreads.c.o
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include  -o CMakeFiles/cmTC_f6226.dir/CheckForPthreads.c.o -c /home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-GImp7n/CheckForPthreads.c
+        Linking C executable cmTC_f6226
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6226.dir/link.txt --verbose=1
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/dinupa/mambaforge/envs/geant4-playground/lib -Wl,-rpath-link,/home/dinupa/mambaforge/envs/geant4-playground/lib -L/home/dinupa/mambaforge/envs/geant4-playground/lib  CMakeFiles/cmTC_f6226.dir/CheckForPthreads.c.o -o cmTC_f6226  -pthread 
+        gmake[1]: Leaving directory '/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-GImp7n'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/FindX11.cmake:498 (check_library_exists)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/lib/Geant4-11.0.3/Geant4Config.cmake:400 (find_dependency)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Looking for XOpenDisplay in /home/dinupa/mambaforge/envs/geant4-playground/lib/libX11.so;/home/dinupa/mambaforge/envs/geant4-playground/lib/libXext.so"
+    directories:
+      source: "/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-ykGe5V"
+      binary: "/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-ykGe5V"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/dinupa/mambaforge/envs/geant4-playground/lib -Wl,-rpath-link,/home/dinupa/mambaforge/envs/geant4-playground/lib -L/home/dinupa/mambaforge/envs/geant4-playground/lib"
+      CMAKE_MODULE_PATH: "/home/dinupa/mambaforge/envs/geant4-playground/lib/Geant4-11.0.3/Modules"
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: /home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-ykGe5V
+        
+        Run Build Command(s):/home/dinupa/mambaforge/envs/geant4-playground/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_55367/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_55367.dir/build.make CMakeFiles/cmTC_55367.dir/build
+        gmake[1]: Entering directory '/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-ykGe5V'
+        Building C object CMakeFiles/cmTC_55367.dir/CheckFunctionExists.c.o
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_55367.dir/CheckFunctionExists.c.o -c /home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-ykGe5V/CheckFunctionExists.c
+        Linking C executable cmTC_55367
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55367.dir/link.txt --verbose=1
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include -DCHECK_FUNCTION_EXISTS=XOpenDisplay -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/dinupa/mambaforge/envs/geant4-playground/lib -Wl,-rpath-link,/home/dinupa/mambaforge/envs/geant4-playground/lib -L/home/dinupa/mambaforge/envs/geant4-playground/lib  CMakeFiles/cmTC_55367.dir/CheckFunctionExists.c.o -o cmTC_55367  /home/dinupa/mambaforge/envs/geant4-playground/lib/libX11.so /home/dinupa/mambaforge/envs/geant4-playground/lib/libXext.so 
+        gmake[1]: Leaving directory '/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-ykGe5V'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/FindX11.cmake:513 (check_function_exists)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/lib/Geant4-11.0.3/Geant4Config.cmake:400 (find_dependency)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Looking for gethostbyname"
+    directories:
+      source: "/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-Fidmvi"
+      binary: "/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-Fidmvi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/dinupa/mambaforge/envs/geant4-playground/lib -Wl,-rpath-link,/home/dinupa/mambaforge/envs/geant4-playground/lib -L/home/dinupa/mambaforge/envs/geant4-playground/lib"
+      CMAKE_MODULE_PATH: "/home/dinupa/mambaforge/envs/geant4-playground/lib/Geant4-11.0.3/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: /home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-Fidmvi
+        
+        Run Build Command(s):/home/dinupa/mambaforge/envs/geant4-playground/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_426d3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_426d3.dir/build.make CMakeFiles/cmTC_426d3.dir/build
+        gmake[1]: Entering directory '/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-Fidmvi'
+        Building C object CMakeFiles/cmTC_426d3.dir/CheckFunctionExists.c.o
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_426d3.dir/CheckFunctionExists.c.o -c /home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-Fidmvi/CheckFunctionExists.c
+        Linking C executable cmTC_426d3
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/cmake -E cmake_link_script CMakeFiles/cmTC_426d3.dir/link.txt --verbose=1
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include -DCHECK_FUNCTION_EXISTS=gethostbyname -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/dinupa/mambaforge/envs/geant4-playground/lib -Wl,-rpath-link,/home/dinupa/mambaforge/envs/geant4-playground/lib -L/home/dinupa/mambaforge/envs/geant4-playground/lib  CMakeFiles/cmTC_426d3.dir/CheckFunctionExists.c.o -o cmTC_426d3 
+        gmake[1]: Leaving directory '/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-Fidmvi'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/FindX11.cmake:527 (check_function_exists)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/lib/Geant4-11.0.3/Geant4Config.cmake:400 (find_dependency)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Looking for connect"
+    directories:
+      source: "/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-b6gKhF"
+      binary: "/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-b6gKhF"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/dinupa/mambaforge/envs/geant4-playground/lib -Wl,-rpath-link,/home/dinupa/mambaforge/envs/geant4-playground/lib -L/home/dinupa/mambaforge/envs/geant4-playground/lib"
+      CMAKE_MODULE_PATH: "/home/dinupa/mambaforge/envs/geant4-playground/lib/Geant4-11.0.3/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: /home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-b6gKhF
+        
+        Run Build Command(s):/home/dinupa/mambaforge/envs/geant4-playground/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_307c2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_307c2.dir/build.make CMakeFiles/cmTC_307c2.dir/build
+        gmake[1]: Entering directory '/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-b6gKhF'
+        Building C object CMakeFiles/cmTC_307c2.dir/CheckFunctionExists.c.o
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_307c2.dir/CheckFunctionExists.c.o -c /home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-b6gKhF/CheckFunctionExists.c
+        Linking C executable cmTC_307c2
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/cmake -E cmake_link_script CMakeFiles/cmTC_307c2.dir/link.txt --verbose=1
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include -DCHECK_FUNCTION_EXISTS=connect -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/dinupa/mambaforge/envs/geant4-playground/lib -Wl,-rpath-link,/home/dinupa/mambaforge/envs/geant4-playground/lib -L/home/dinupa/mambaforge/envs/geant4-playground/lib  CMakeFiles/cmTC_307c2.dir/CheckFunctionExists.c.o -o cmTC_307c2 
+        gmake[1]: Leaving directory '/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-b6gKhF'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/FindX11.cmake:536 (check_function_exists)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/lib/Geant4-11.0.3/Geant4Config.cmake:400 (find_dependency)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Looking for remove"
+    directories:
+      source: "/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-bKUddA"
+      binary: "/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-bKUddA"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/dinupa/mambaforge/envs/geant4-playground/lib -Wl,-rpath-link,/home/dinupa/mambaforge/envs/geant4-playground/lib -L/home/dinupa/mambaforge/envs/geant4-playground/lib"
+      CMAKE_MODULE_PATH: "/home/dinupa/mambaforge/envs/geant4-playground/lib/Geant4-11.0.3/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: /home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-bKUddA
+        
+        Run Build Command(s):/home/dinupa/mambaforge/envs/geant4-playground/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5c52f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5c52f.dir/build.make CMakeFiles/cmTC_5c52f.dir/build
+        gmake[1]: Entering directory '/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-bKUddA'
+        Building C object CMakeFiles/cmTC_5c52f.dir/CheckFunctionExists.c.o
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_5c52f.dir/CheckFunctionExists.c.o -c /home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-bKUddA/CheckFunctionExists.c
+        Linking C executable cmTC_5c52f
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c52f.dir/link.txt --verbose=1
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include -DCHECK_FUNCTION_EXISTS=remove -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/dinupa/mambaforge/envs/geant4-playground/lib -Wl,-rpath-link,/home/dinupa/mambaforge/envs/geant4-playground/lib -L/home/dinupa/mambaforge/envs/geant4-playground/lib  CMakeFiles/cmTC_5c52f.dir/CheckFunctionExists.c.o -o cmTC_5c52f 
+        gmake[1]: Leaving directory '/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-bKUddA'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/FindX11.cmake:545 (check_function_exists)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/lib/Geant4-11.0.3/Geant4Config.cmake:400 (find_dependency)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-brMHMj"
+      binary: "/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-brMHMj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/dinupa/mambaforge/envs/geant4-playground/lib -Wl,-rpath-link,/home/dinupa/mambaforge/envs/geant4-playground/lib -L/home/dinupa/mambaforge/envs/geant4-playground/lib"
+      CMAKE_MODULE_PATH: "/home/dinupa/mambaforge/envs/geant4-playground/lib/Geant4-11.0.3/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: /home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-brMHMj
+        
+        Run Build Command(s):/home/dinupa/mambaforge/envs/geant4-playground/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1f5d0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1f5d0.dir/build.make CMakeFiles/cmTC_1f5d0.dir/build
+        gmake[1]: Entering directory '/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-brMHMj'
+        Building C object CMakeFiles/cmTC_1f5d0.dir/CheckFunctionExists.c.o
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_1f5d0.dir/CheckFunctionExists.c.o -c /home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-brMHMj/CheckFunctionExists.c
+        Linking C executable cmTC_1f5d0
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f5d0.dir/link.txt --verbose=1
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include -DCHECK_FUNCTION_EXISTS=shmat -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/dinupa/mambaforge/envs/geant4-playground/lib -Wl,-rpath-link,/home/dinupa/mambaforge/envs/geant4-playground/lib -L/home/dinupa/mambaforge/envs/geant4-playground/lib  CMakeFiles/cmTC_1f5d0.dir/CheckFunctionExists.c.o -o cmTC_1f5d0 
+        gmake[1]: Leaving directory '/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-brMHMj'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/FindX11.cmake:555 (check_library_exists)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/dinupa/mambaforge/envs/geant4-playground/lib/Geant4-11.0.3/Geant4Config.cmake:400 (find_dependency)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Looking for IceConnectionNumber in ICE"
+    directories:
+      source: "/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-efIwGG"
+      binary: "/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-efIwGG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/dinupa/mambaforge/envs/geant4-playground/lib -Wl,-rpath-link,/home/dinupa/mambaforge/envs/geant4-playground/lib -L/home/dinupa/mambaforge/envs/geant4-playground/lib"
+      CMAKE_MODULE_PATH: "/home/dinupa/mambaforge/envs/geant4-playground/lib/Geant4-11.0.3/Modules"
+    buildResult:
+      variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
+      cached: true
+      stdout: |
+        Change Dir: /home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-efIwGG
+        
+        Run Build Command(s):/home/dinupa/mambaforge/envs/geant4-playground/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1643c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1643c.dir/build.make CMakeFiles/cmTC_1643c.dir/build
+        gmake[1]: Entering directory '/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-efIwGG'
+        Building C object CMakeFiles/cmTC_1643c.dir/CheckFunctionExists.c.o
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_1643c.dir/CheckFunctionExists.c.o -c /home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-efIwGG/CheckFunctionExists.c
+        Linking C executable cmTC_1643c
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1643c.dir/link.txt --verbose=1
+        /home/dinupa/mambaforge/envs/geant4-playground/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/dinupa/mambaforge/envs/geant4-playground/include -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/dinupa/mambaforge/envs/geant4-playground/lib -Wl,-rpath-link,/home/dinupa/mambaforge/envs/geant4-playground/lib -L/home/dinupa/mambaforge/envs/geant4-playground/lib  CMakeFiles/cmTC_1643c.dir/CheckFunctionExists.c.o -o cmTC_1643c  -lICE 
+        gmake[1]: Leaving directory '/home/dinupa/geant4-playground/B4/B4a/build/CMakeFiles/CMakeScratch/TryCompile-efIwGG'
+        
+      exitCode: 0
+...

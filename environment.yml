@@ -1,0 +1,13 @@
+name: geant4-playground
+channels:
+    - conda-forge
+dependencies:
+    - cmake
+    - make
+    - compilers
+    - geant4
+    - uproot
+    - awkward
+    - matplotlib
+    - numpy
+    - jupyter

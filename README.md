@@ -1,6 +1,6 @@
 # A Playground for GEANT4 Simulation Toolkit
 
-In this repository, we aim to simulate both the total energy deposited on the copper plate and the type of charge using the [GEANT4](https://github.com/Geant4/geant4/tree/master) simulation toolkit. This example closely follows the [B4](https://github.com/Geant4/geant4/tree/master/examples/basic/B4) example.
+In this repository, we aim to simulate both the total energy deposited on the copper plate and the type of charge using the [GEANT4](https://github.com/Geant4/geant4/tree/master) simulation toolkit. This example closely follows the [TestEm5](https://github.com/Geant4/geant4/tree/master/examples/extended/electromagnetic/TestEm5) example.
 
 
 ## Setup Environment
@@ -17,10 +17,10 @@ conda activate geant4-playground
 Use following commands to run the simulation.
 
 ```
-cd B4/B4a
+cd TestEm5
 mkdri build
 cd build
 cmake ..
 make
-./exampleB4a -m run2.mac
+./TestEM5 sagini.mac
 ```

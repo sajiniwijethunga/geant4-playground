@@ -18,7 +18,7 @@
 /gun/particle e- 
 /gun/energy 20 keV
 #
-/analysis/setFileName sagini
+/analysis/setFileName sajini
 #
 #/analysis/h1/set 40 40 0 20 keV	#energy at exit. (reflect,neutral)
 /analysis/h1/set 1 50 0 20 keV

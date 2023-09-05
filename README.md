@@ -22,5 +22,5 @@ mkdri build
 cd build
 cmake ..
 make
-./TestEM5 sagini.mac
+./TestEM5 sajini.mac
 ```

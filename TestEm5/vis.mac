@@ -29,6 +29,8 @@
 #
 # Draw geometry:
 /vis/drawVolume
+/vis/geometry/set/colour Cavity 1 red
+/vis/geometry/set/forceSolid Cavity 1
 #
 # Specify view angle:
 #/vis/viewer/set/viewpointThetaPhi 90. 0.
@@ -37,10 +39,10 @@
 /vis/viewer/zoom 1.4
 #
 # Specify style (surface or wireframe):
-/vis/viewer/set/style surface
+#/vis/viewer/set/style wireframe
 #
 # Draw coordinate axes:
-/vis/scene/add/axes 0 0 0 1 m
+/vis/scene/add/axes 0 0 0 8 cm
 #
 # Draw smooth trajectories at end of event, showing trajectory points
 # as markers 2 pixels wide:
@@ -49,13 +51,10 @@
 /vis/modeling/trajectories/drawByCharge-0/default/setDrawStepPts true
 /vis/modeling/trajectories/drawByCharge-0/default/setStepPtsSize 1
 # (if too many tracks cause core dump => /tracking/storeTrajectory 0)
+#/tracking/storeTrajectory 0
 #
-#/vis/modeling/trajectories/create/drawByParticleID
-#/vis/modeling/trajectories/drawByParticleID-0/set e- red
-
-
 # Draw hits at end of event:
-/vis/scene/add/hits
+#/vis/scene/add/hits
 #
 # To draw only gammas:
 #/vis/filtering/trajectories/create/particleFilter

@@ -74,7 +74,7 @@ DetectorConstruction::DetectorConstruction()
   // materials  
   DefineMaterials();
   SetWorldMaterial   ("G4_Galactic");
-  SetAbsorberMaterial("G4_Si");
+  SetAbsorberMaterial("G4_Cu");
  
   // create commands for interactive definition of the calorimeter  
   fDetectorMessenger = new DetectorMessenger(this);
@@ -301,7 +301,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 
   // cylinder
   fSolidCylinder = new G4Tubs("Cylinder",        
-                      0.0*cm, 2.5*cm, 1.25*cm, 0., 360.);
+                      0.0*cm, 2.5*cm, 2.5*cm, 0., 360.);
 
   fLogicCylinder = new G4LogicalVolume(fSolidCylinder,    //its solid
                                        fAbsorberMaterial, //its material
@@ -313,30 +313,32 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
                           
 
   fPhysiCylinder = new G4PVPlacement(rotationMatrix,                   //no rotation
-                        G4ThreeVector(0.*cm, 0.*cm, 1.25*cm),    //its position
+                        G4ThreeVector(0.*cm, 0.*cm, 0*cm),    //its position
                                 fLogicCylinder,     //its logical volume
                                 "Cylinder",         //its name
                                 fLogicWorld,        //its mother
                                 false,              //no boulean operat
                                 0);                 //copy number
 
+//fAirCavity = new G4Cons("Cavity",        
+//                     inner diameter*cm, outer diameter*cm, 0.0*cm, 0.0*cm, height of the cone*cm, 0., 360.);
 
   // cavity
   fAirCavity = new G4Cons("Cavity",        
-                      0.0*cm, 1.5*cm, 0.0*cm, 0.0*cm, 0.75*cm, 0., 360.);
+                      0.0*cm, 2*cm, 0.0*cm, 0.0*cm, 2*cm, 0., 360.);
 
   fLogicCavity = new G4LogicalVolume(fAirCavity,    //its solid
-                                       Air, //its material
-                                       "Cavity");       //its name
+                                       Air,         //its material
+                                       "Cavity");   //its name
                           
 
-  fPhysiCavity = new G4PVPlacement(0,                   //no rotation
+  fPhysiCavity = new G4PVPlacement(0,                            //no rotation
                         G4ThreeVector(0.*cm, 0.*cm, -0.5*cm),    //its position
-                                fLogicCavity,     //its logical volume
-                                "Cavity",         //its name
-                                fLogicCylinder,        //its mother
-                                false,              //no boulean operat
-                                0);                 //copy number
+                                fLogicCavity,                    //its logical volume
+                                "Cavity",                        //its name
+                                fLogicCylinder,                  //its mother
+                                false,                           //no boulean operat
+                                0);                              //copy number
 
   // fSolidCylinder1 = new G4Tubs("Cylinder1",        
   //                     0.*cm, 1.5*cm, 0.75*cm, 0., 360.);
